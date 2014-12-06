@@ -68,6 +68,12 @@ void draw()  {
   }
   }
   else{
+    //shitgame
+    
+    
+    
+    
+    
     
   }
 }
