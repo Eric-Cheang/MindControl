@@ -37,7 +37,7 @@ public void createGUI(){
     frame.setTitle("Sketch Window");
   heart = new GWindow(this, "Heart", 0, 0, 500, 500, false, JAVA2D);
   heart.addDrawHandler(this, "win_draw2");
-  imgButton1 = new GImageButton(heart.papplet, 0, 0, 500, 400, new String[] { "", "", "" } );
+  imgButton1 = new GImageButton(heart.papplet, 0, 0, 500, 400, new String[] {"Heart1.png" } );
   imgButton1.addEventHandler(this, "imgButton1_click1");
 }
 

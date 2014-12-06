@@ -41,13 +41,11 @@ void draw()  {
   }
   }
   else{
-   //gameDriver();
-    
-    
-    
-    
-    
+    if (!GUIisCreated){
+      createGUI();
+      GUIisCreated = true;
   }
+}
 }
 
 void createWindows(String windowName) {
