@@ -1,6 +1,6 @@
 PImage img, imgHoverStart, imgHoverOptions, imgWhite, imgHeart;
 
-int rectX, rectY, rectX2, rectY2;
+int rectX, rectY, rectX2, rectY2, rectHealthX, rectHealthY;
 int rectWidth = 120;
 int rectHeight = 60;
 color rectColor, baseColor;

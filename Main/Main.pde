@@ -14,9 +14,11 @@ void setup(){
   rectY = 390;
   rectX2 = 300;
   rectY2 = 390;
+  rectHealthX = 07;
+  rectHealthY = 60;
   
   rect(rectX, rectY, rectWidth, rectHeight);
-  rect(rectX2, rectY2, rectWidth + 58, rectHeight);
+  rect(rectX2, rectY2, rectWidth + 60, rectHeight);
   image(img, 0, 0, img.width/2, img.height/2);
   
 }
@@ -41,9 +43,27 @@ void draw()  {
   }
   }
   else{
+<<<<<<< HEAD
     if (!GUIisCreated){
       createGUI();
       GUIisCreated = true;
+=======
+<<<<<<< HEAD
+    //image(imgWhite, 0, 0, imgWhite.width/2, img.height/2);
+    fill(#F0008C);
+    stroke(255);
+    rect(rectHealthX, rectHealthY, rectWidth + 65, rectHeight/5);
+    gameDriver();
+    
+=======
+   //gameDriver();
+>>>>>>> 2c3e53ea6a98f31bfe95226027bd4f04d8c35d2a
+    
+    
+    
+    
+    
+>>>>>>> origin/master
   }
 }
 }
