@@ -5,16 +5,18 @@ void setup(){
   img = loadImage("TitleScreen.png");
   imgHoverStart = loadImage("TitleScreenStartHover.png");
   imgHoverOptions = loadImage("TitleScreenOptionStart.png");
-  imgWhite = loadImage("bigwin.jpg");
+  imgWhite = loadImage("GameScreen.png");
   rectColor = color(120);
   rectHighlight = color(200);
   rectX = 37;
   rectY = 390;
   rectX2 = 300;
   rectY2 = 390;
+  rectHealthX = 07;
+  rectHealthY = 60;
   
   rect(rectX, rectY, rectWidth, rectHeight);
-  rect(rectX2, rectY2, rectWidth + 58, rectHeight);
+  rect(rectX2, rectY2, rectWidth + 60, rectHeight);
   image(img, 0, 0, img.width/2, img.height/2);
   
 }
@@ -39,6 +41,10 @@ void draw()  {
   }
   }
   else{
+    //image(imgWhite, 0, 0, imgWhite.width/2, img.height/2);
+    fill(#F0008C);
+    stroke(255);
+    rect(rectHealthX, rectHealthY, rectWidth + 65, rectHeight/5);
     gameDriver();
     
     
