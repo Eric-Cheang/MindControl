@@ -1,6 +1,8 @@
 import g4p_controls.*;
 
 void setup(){
+  
+
   size(500, 500);
   img = loadImage("TitleScreen.png");
   imgHoverStart = loadImage("TitleScreenStartHover.png");
@@ -41,12 +43,16 @@ void draw()  {
   }
   }
   else{
+<<<<<<< HEAD
     //image(imgWhite, 0, 0, imgWhite.width/2, img.height/2);
     fill(#F0008C);
     stroke(255);
     rect(rectHealthX, rectHealthY, rectWidth + 65, rectHeight/5);
     gameDriver();
     
+=======
+   //gameDriver();
+>>>>>>> 2c3e53ea6a98f31bfe95226027bd4f04d8c35d2a
     
     
     
