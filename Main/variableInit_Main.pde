@@ -1,4 +1,4 @@
-PImage img, imgHoverStart, imgHoverOptions, imgWhite;
+PImage img, imgHoverStart, imgHoverOptions, imgWhite, imgHeart;
 
 int rectX, rectY, rectX2, rectY2;
 int rectWidth = 120;
