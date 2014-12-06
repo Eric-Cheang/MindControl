@@ -1,2 +1,2 @@
-int gameHealth;
+int gameHealth = rectWidth + 65;
  

@@ -16,13 +16,11 @@
 
 synchronized public void win_draw2(GWinApplet appc, GWinData data) { //_CODE_:heart:326237:
   appc.background(230);
-  imgHeart = loadImage("Heart1.png");
-  image(imgHeart, 0, 0, imgHeart.width/2, imgHeart.height/2);
-  print("PENIS");
+  
 } //_CODE_:heart:326237:
 
 public void imgButton1_click1(GImageButton source, GEvent event) { //_CODE_:imgButton1:351264:
-  println("imgButton1 - GImageButton >> GEvent." + event + " @ " + millis());
+  gameHealth = gameHealth + 10;
 } //_CODE_:imgButton1:351264:
 
 
@@ -37,7 +35,7 @@ public void createGUI(){
     frame.setTitle("Sketch Window");
   heart = new GWindow(this, "Heart", 0, 0, 500, 500, false, JAVA2D);
   heart.addDrawHandler(this, "win_draw2");
-  imgButton1 = new GImageButton(heart.papplet, 0, 0, 500, 400, new String[] {"Heart1.png" } );
+  imgButton1 = new GImageButton(heart.papplet, 0, 0, 500, 400, new String[] { "", "", "" } );
   imgButton1.addEventHandler(this, "imgButton1_click1");
 }
 

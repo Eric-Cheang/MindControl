@@ -43,29 +43,16 @@ void draw()  {
   }
   }
   else{
-<<<<<<< HEAD
     if (!GUIisCreated){
       createGUI();
       GUIisCreated = true;
-=======
-<<<<<<< HEAD
+    }
     //image(imgWhite, 0, 0, imgWhite.width/2, img.height/2);
     fill(#F0008C);
     stroke(255);
-    rect(rectHealthX, rectHealthY, rectWidth + 65, rectHeight/5);
-    gameDriver();
+    rect(rectHealthX, rectHealthY, gameHealth, rectHeight/5);
     
-=======
-   //gameDriver();
->>>>>>> 2c3e53ea6a98f31bfe95226027bd4f04d8c35d2a
-    
-    
-    
-    
-    
->>>>>>> origin/master
   }
-}
 }
 
 void createWindows(String windowName) {
