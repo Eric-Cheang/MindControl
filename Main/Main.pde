@@ -1,11 +1,13 @@
 import g4p_controls.*;
 
 void setup(){
+  
+
   size(500, 500);
   img = loadImage("TitleScreen.png");
   imgHoverStart = loadImage("TitleScreenStartHover.png");
   imgHoverOptions = loadImage("TitleScreenOptionStart.png");
-  imgWhite = loadImage("bigwin.jpg");
+  imgWhite = loadImage("GameScreen.png");
   rectColor = color(120);
   rectHighlight = color(200);
   rectX = 37;
@@ -39,8 +41,7 @@ void draw()  {
   }
   }
   else{
-    gameDriver();
-    
+   //gameDriver();
     
     
     
