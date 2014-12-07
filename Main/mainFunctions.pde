@@ -19,7 +19,6 @@ void mousePressed(){
    buttonPressed = true;
   background(0);
   image(imgWhite, 0, 0, imgWhite.width/2, imgWhite.height/2);
-  createWindows("Heart");
   
   
  } 

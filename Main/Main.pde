@@ -1,7 +1,9 @@
+import gifAnimation.*;
 import g4p_controls.*;
 
 void setup(){
-  
+
+  frameRate(15);  
 
   size(500, 500);
   img = loadImage("TitleScreen.png");
@@ -51,7 +53,7 @@ void draw()  {
     fill(#F0008C);
     stroke(255);
     rect(rectHealthX, rectHealthY, gameHealth, rectHeight/5);
-    
+    heartTick();
   }
 }
 
